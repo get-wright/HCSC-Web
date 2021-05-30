@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title> Kaylous's page</title>
+		<link rel="icon" href="picture/animevillage.jpg">
+		
+		<link rel="stylesheet" href="index.css">
+		<!--------------------- edit part cho người code sau ------------------------>
+		<!-- <link rel="stylesheet" href="Body 1/body1.css"> -->
+		<style>
+			.Body1 {
+				width: 1330px;
+				height: 768px;
+				background-color: #626066;
+
+			}
+		</style>
+		<!---------------------------- end of edit part ----------------------------->
+	</head>
+
+	<body onload="init();">
+		<script src="init.js"></script>
+		<!----------------------------------------- top -------------------------------------------->
+		<div class="top-menu">
+			<ul>
+				<a href="index.html"><img src="picture/logohentaiz.png" width="200px" height="80px"> </a>
+
+				<li><span onclick="left_menu_appear();">&#9776;</span></li> 
+				<li><a href="contact.html"> Contact </a></li>
+				<li>
+					<div class="dropdown">
+						<a href="what_we_do.html" class="dropbtn"> What we do </a>
+						<div class="dropdown-menu dropdown-menu-right" >
+							<a href="#gei1">Not website hosting</a><br>
+							<a href="#gei2">Not custom software</a><br>
+							<a href="#gei3">Definitely not database development</a><br>
+							<a href="#gei4">May be app development</a><br>
+							<a href="#gei5">Website design (obvious)</a><br>
+						</div>
+					</div>
+						
+				</li>
+			</ul>
+		</div>
+
+		<!---------------------------- hidden ------------------------------------>
+		<!-- đoạn này nhầm left với right, ai đọc nhớ tự hiểu :> -->
+		<div class="left-menu" id="LeftMenu">
+			<a onclick="left_menu_close();" class="left-menu-close-button">&times;</a>
+			<div class="left-menu-content">
+				<a href="https://hentaiz.pro">nani</a>
+				<a href="https://nhentai.net">another nani</a>
+			</div>
+		</div>
+
+		<h1>
+			BẠN MUỐN TỰ TỬ Ư? <br> HÃY ĐẾN ĐÂY VÌ NƠI ĐÂY LÀ ĐỊA NGỤC!
+		</h1>
+		<h2>
+			Chắc thế :>
+		</h2>
+		<h1>
+			<br>
+		</h1>
+		<center>
+			<canvas class="Body1">
+				<!--your code is here
+					may be -->
+				<h3>
+					Đây là phần mà ng code body1 đè lên :v
+				</h3>
+			</canvas>
+		</center>
+	</body>
+</html>
